@@ -1,9 +1,11 @@
-import React from "react";
-import Navbar from "./components/Navbar/Navbar";
-const App = () => {
-  return <div>
-    <Navbar />
-  </div>;
-};
+// src/App.jsx
+import Navbar from "./components/Navbar/Navbar.jsx";
 
-export default App;
+export default function App() {
+  return (
+    <>
+      <Navbar />
+      {/* keep page empty like your screenshot */}
+    </>
+  );
+}
